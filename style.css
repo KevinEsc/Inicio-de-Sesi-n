@@ -1,15 +1,20 @@
 body {
-    background: linear-gradient(-45deg, #B7622C, #5E3123, #323232, #923B1B);
+    background: linear-gradient(-45deg, #575757, #2c2c2c, #323232, #aeaeae);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     min-height: 100vh;
-    padding-top: 2rem;
 }
 
 @keyframes gradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+#welcomeSection {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
 }
 
 .card {
