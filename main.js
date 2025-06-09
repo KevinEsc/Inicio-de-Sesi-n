@@ -55,7 +55,7 @@ addUserForm.addEventListener("submit", function (e) {
     const confirmed = confirm("¿Deseas agregar este usuario?");
     if (!confirmed) return;
 
-  const newUser = {
+const newUser = {
     id: Date.now(),
     fullName: `${firstName} ${lastName}`,
     email,
@@ -100,3 +100,4 @@ function deleteUser(id) {
     users = users.filter(user => user.id !== id);
     renderUsers();
 }
+
