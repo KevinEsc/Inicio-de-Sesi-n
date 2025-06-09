@@ -78,7 +78,7 @@ function renderUsers() {
     <div class="card user-card shadow-sm">
         <div class="card-body">
             <div class="d-flex align-items-center">
-                <img src="icono.png" class="rounded-circle me-3" alt="Foto" style="width:64px; height:64px; object-fit:cover;">
+                <img src="icon.png" class="rounded-circle me-3" alt="Foto" style="width:64px; height:64px; object-fit:cover;">
                 <div class="flex-grow-1">
                     <h5 class="mb-1">${user.fullName}</h5>
                     <p class="mb-0"><strong>Correo:</strong> ${user.email}</p>
